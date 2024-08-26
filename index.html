@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Encriptador de texto</h1>
+    </header>
+<main>
+    <a href="https://www.linkedin.com/in/stefany-saavedra-098b222aa/" class="linkedin" target="_blank">
+        <img src="linkedin.png" alt="logo-linkedin">
+    </a>
+    <a href="https://github.com/Tatiana0920" class="github" target="_blank">
+        <img src="github.png" alt="logo-github" >
+    </a>
+    <section class="container">
+        <div class="input">
+            <textarea class="input-text" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="buttons">
+                <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
+                <button class="btn-desencriptar" type="button" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="output">
+            <img class="imagen" id="imagenResultado" src="answer.jpg" alt="imagen">
+            <textarea id="output-text" placeholder="Ningún mensaje fue encontrado. Ingresa el texto que deseas encriptar o desencriptar."></textarea>
+            <button class="btn-copiar" onclick="copiar()">Copiar</button>
+        </div>
+    </section>
+</main>
+    
+<footer>
+    <p>Tatiana Saavedra - 2024</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
